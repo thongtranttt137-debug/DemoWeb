@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Demo Website</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="services.html">Dịch vụ</a></li>
+        <li><a href="gallery.html">Thư viện</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <section id="contact" class="contact">
+        <div class="contact-left">
+          <h2 class="ct-title">Liên hệ</h2>
+          <form action="" class="ct-form">
+            <div>
+              <label for="name" class="ct-label">Họ và tên: </label>
+              <input
+                class="ct-input"
+                type="text"
+                id="name"
+                placeholder="Nhập họ và tên"
+              />
+            </div>
+            <div>
+              <label for="email" class="ct-label">Email: </label>
+              <input
+                class="ct-input"
+                type="email"
+                id="email"
+                placeholder="Nhập email"
+              />
+            </div>
+            <div>
+              <label for="message" class="ct-label">Nội dung: </label>
+              <textarea
+                class="ct-input"
+                id="message"
+                placeholder="Nội dung"
+              ></textarea>
+            </div>
+            <div><button type="submit" class="ct-button">Gửi</button></div>
+          </form>
+        </div>
+        <div class="contact-right">
+          <h2 class="ct-title">Liên hệ với chúng tôi</h2>
+          <div class="ct-item">
+            <span class="ct-icon"
+              ><i class="fa-solid fa-location-dot"></i
+            ></span>
+            <span>Đường ABC Số 123</span>
+          </div>
+          <div class="ct-item">
+            <span class="ct-icon"
+              ><i class="fa-solid fa-phone"></i></i
+            ></span>
+            <span>+84 1223334444</span>
+          </div>
+          <div class="ct-item">
+            <span class="ct-icon"
+              ><i class="fa-solid fa-envelope"></i></i
+            ></span>
+            <span>abc123@gmail.com</span>
+          </div>
+          <div class="ct-item socials">
+            <a href="#" class="ct-link"><span class="ct-icon"
+              ><i class="fa-brands fa-facebook-f"></i></span></a>
+            <a href="#" class="ct-link"><span class="ct-icon"
+              ><i class="fa-brands fa-instagram"></i></span></a>
+            <a href="#" class="ct-link"><span class="ct-icon"
+              ><i class="fa-brands fa-whatsapp"></i></span></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>© 2025 Demo Web. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
