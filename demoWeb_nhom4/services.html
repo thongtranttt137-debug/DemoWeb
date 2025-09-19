@@ -3,57 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <title>Dịch vụ của chúng tôi</title>
+  <link rel="stylesheet" href="style.css"> <!-- CSS bạn đã gửi -->
 </head>
 <body>
 
-  <h1>Dịch vụ của chúng tôi</h1>
-  <p>Các gói dịch vụ tiêu biểu dành cho khách hàng</p>
+  <!-- Header -->
+  <header>
+    <h1>Dịch vụ của chúng tôi</h1>
+  </header>
 
-  <h2>Danh sách dịch vụ</h2>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Trang chủ</a></li>
+      <li><a href="gallery.html">Dịch vụ</a></li>
+      <li><a href="#">Bảng giá</a></li>
+      <li><a href="contact.html">Liên hệ</a></li>
+    </ul>
+  </nav>
 
-  <h3>1. Thiết kế logo chuyên nghiệp</h3>
-  <p>Danh mục: Thiết kế</p>
-  <p>Thời gian: 60 phút</p>
-  <p>Mô tả: Thiết kế logo độc đáo, file vectơ, 2 lần chỉnh sửa.</p>
-  <p>Giá: 1.500.000 VNĐ</p>
+  <div class="container">
 
-  <h3>2. Quảng cáo Facebook Ads</h3>
-  <p>Danh mục: Marketing</p>
-  <p>Thời gian: 7 ngày</p>
-  <p>Mô tả: Tạo chiến dịch quảng cáo tối ưu, báo cáo kết quả chi tiết.</p>
-  <p>Giá: 3.000.000 VNĐ</p>
+    <!-- Giới thiệu -->
+    <section>
+      <h2>Giới thiệu</h2>
+      <p>Các gói dịch vụ tiêu biểu dành cho khách hàng</p>
+    </section>
 
-  <h3>3. Thiết kế website bán hàng</h3>
-  <p>Danh mục: Lập trình</p>
-  <p>Thời gian: 15 ngày</p>
-  <p>Mô tả: Website chuẩn SEO, responsive, hỗ trợ thanh toán online.</p>
-  <p>Giá: 12.000.000 VNĐ</p>
+    <!-- Danh sách dịch vụ -->
+    <section>
+      <h2>Danh sách dịch vụ</h2>
 
-  <h2>Liên hệ đặt dịch vụ</h2>
-  <form>
-    <p>
-      <label>Họ và tên:<br>
-      <input type="text" name="fullname"></label>
-    </p>
-    <p>
-      <label>Email:<br>
-      <input type="email" name="email"></label>
-    </p>
-    <p>
-      <label>Dịch vụ cần đặt:<br>
-      <input type="text" name="service"></label>
-    </p>
-    <p>
-      <label>Ghi chú:<br>
-      <textarea name="message" rows="4" cols="40"></textarea></label>
-    </p>
-    <p>
-      <button type="submit">Gửi yêu cầu</button>
-    </p>
-  </form>
+      <h3>1. Thiết kế logo chuyên nghiệp</h3>
+      <p><b>Danh mục:</b> Thiết kế</p>
+      <p><b>Thời gian:</b> 60 phút</p>
+      <p><b>Mô tả:</b> Thiết kế logo độc đáo, file vectơ, 2 lần chỉnh sửa.</p>
+      <p><b>Giá:</b> 1.500.000 VNĐ</p>
 
-  <hr>
-  <p>Bản quyền &copy; 2025 - Công ty Dịch vụ ABC</p>
+      <h3>2. Quảng cáo Facebook Ads</h3>
+      <p><b>Danh mục:</b> Marketing</p>
+      <p><b>Thời gian:</b> 7 ngày</p>
+      <p><b>Mô tả:</b> Tạo chiến dịch quảng cáo tối ưu, báo cáo kết quả chi tiết.</p>
+      <p><b>Giá:</b> 3.000.000 VNĐ</p>
 
-</body>
-</html>
+      <h3>3. Thiết kế website bán hàng</h3>
+      <p><b>Danh mục:</b> Lập trình</p>
+      <p><b>Thời gian:</b> 15 ngày</p>
+      <p><b>Mô tả:</b> Website chuẩn SEO, responsive, hỗ trợ thanh toán online.</p>
+      <p><b>Giá:</b> 12.000.000 VNĐ</p>
+    </section>
+
+    <!-- Liên hệ -->
+    <section>
+      <h2 class="ct-title">Liên hệ đặt dịch vụ</h2>
+      <div class="contact">
+        
+        <!-- Bên trái: thông tin -->
+        <div class="contact-left">
+          <div class="ct-item">
+            <div class="ct-icon">📍</div>
+            <p>123 Đường ABC, Quận 1, TP.HCM</p>
+          </div>
+          <div class="ct-item">
+            <div class="ct-icon">📞</div>
+            <p>+84 987 654 321</p>
+          </div>
+          <div class="ct-item">
+            <div class="ct-icon">✉️</div>
+            <p>info@dichvuabc.com</p>
+          </div>
+          <div class="ct-item socials">
+            <a href="#" class="ct-link"><div class="ct-icon">👍</div></a>
+            <a href="#" class="ct-link"><div class="ct-icon">🐦</div></a>
+            <a href="#" class="ct-link"><div class="ct-icon">📸</div></a>
+          </div>
+        </div>
+
+        <!-- Bên phải: form -->
+        <div class="contact-right">
+          <form class="ct-form">
+            <label class="ct-label">
